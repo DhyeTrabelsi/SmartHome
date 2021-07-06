@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">SmartHome</string>
+    <string name="demo_title1">Bienvenue sur l’application Smarthouse </string>
+    <string name="demo_title2">Vous pouvez utiliser cette application pour contrôler vos appareils"</string>
+    <string name="demo_title3">l’accés à l’internet est nécessaire pour détecter les singaux Wi-Fi</string>
+    <string name="next">Next</string>
+    <string name="finish">Finish</string>
+</resources>

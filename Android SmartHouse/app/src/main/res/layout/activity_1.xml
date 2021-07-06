@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/actbg"
+    tools:context=".ui.activity.Activity1">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="9dp"
+                        android:layout_marginLeft="3dp"
+                        android:src="@drawable/ic_profile_user"
+                        app:civ_border_color="@color/hintColor"
+                        app:civ_circle_background_color="@color/white" />/>
+
+                    <TextView
+                        android:id="@+id/user"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginLeft="6dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"
+                        android:textStyle="normal" />
+
+
+                <ImageButton
+                        android:layout_marginLeft="100dp"
+                        android:id="@+id/logout"
+                        android:layout_marginTop="20dp"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:background="@drawable/ic_baseline_login_24" />
+                    <TextView
+                        android:id="@+id/logout1"
+                        android:onClick="onLoginClickedout"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginLeft="6dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#A9000000"
+                        android:text="Déconnecter"
+                        android:textSize="20dp"
+                        android:textStyle="normal" />
+            </LinearLayout>
+
+                <ImageButton
+
+                    android:id="@+id/image1"
+                    android:layout_width="140dp"
+                    android:layout_marginTop="100dp"
+                    android:layout_height="140dp"
+                    android:layout_marginLeft="28dp"
+                    android:background="@drawable/image1" />
+
+                <ImageButton
+                    android:id="@+id/image2"
+                    android:layout_width="140dp"
+                    android:layout_marginTop="100dp"
+                    android:layout_height="140dp"
+                    android:layout_marginLeft="206dp"
+                    android:background="@drawable/image2" />
+                <ImageButton
+                    android:id="@+id/image3"
+                    android:layout_width="140dp"
+                    android:layout_marginTop="280dp"
+                    android:layout_height="140dp"
+                    android:layout_marginLeft="28dp"
+                    android:background="@drawable/salon" />
+
+                <ImageButton
+                    android:id="@+id/image4"
+                    android:layout_width="140dp"
+                    android:layout_marginTop="280dp"
+                    android:layout_height="140dp"
+                    android:layout_marginLeft="206dp"
+                    android:background="@drawable/imagesalledebain" />
+                <ImageButton
+                    android:id="@+id/image5"
+                    android:layout_width="140dp"
+                    android:layout_marginTop="460dp"
+                    android:layout_height="140dp"
+                    android:layout_marginLeft="28dp"
+                    android:background="@drawable/sejour" />
+
+                <ImageButton
+                    android:id="@+id/image6"
+                    android:layout_width="140dp"
+                    android:layout_marginTop="460dp"
+                    android:layout_height="140dp"
+                    android:layout_marginLeft="206dp"
+                    android:background="@drawable/jardin" />
+
+
+            </RelativeLayout>
+        </ScrollView>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/half_circle"
+            android:orientation="horizontal"
+            android:weightSum="5">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:id="@+id/home_ll"
+                android:gravity="center">
+
+                <RelativeLayout
+                    android:id="@+id/home_rl"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp">
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_centerInParent="true"
+                        android:background="@drawable/home" />
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:id="@+id/time_ll"
+                android:gravity="center">
+
+                <RelativeLayout
+                    android:id="@+id/time_rl"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp">
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_centerInParent="true"
+                        android:background="@drawable/time" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/ic_plus" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:id="@+id/scene_ll"
+                android:gravity="center">
+
+                <RelativeLayout
+                    android:id="@+id/scene_rl"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp">
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_centerInParent="true"
+                        android:background="@drawable/graph" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:id="@+id/setting_ll"
+                android:gravity="center">
+
+                <RelativeLayout
+                    android:id="@+id/setting_rl"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp">
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_centerInParent="true"
+                        android:background="@drawable/settings" />
+                </RelativeLayout>
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

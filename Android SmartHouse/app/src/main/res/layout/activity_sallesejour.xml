@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_1"
+    tools:context=".ui.activity.SallesejourActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="230dp"
+            android:fillViewport="true">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:background="@drawable/bg_2" />
+
+
+
+        </RelativeLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_marginTop="9dp"
+                android:layout_marginLeft="9dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/ic_profile_user"
+                app:civ_border_color="@color/hintColor"
+                app:civ_circle_background_color="@color/white" />
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="6dp"
+                android:id="@+id/user2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="normal" />
+        </LinearLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp">
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_gravity="right"
+                    android:textStyle="normal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="Votre Salle de séjour"
+                    android:textColor="@color/colorBlackTrans"
+                    android:textSize="20dp"
+                    />
+                <ImageView
+                    android:id="@+id/image_view"
+                    android:layout_width="100dp"
+                    android:layout_height="80dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="40dp"
+
+                    android:background="@drawable/champsejour" />
+
+
+            </LinearLayout>
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_marginTop="250dp"
+                android:background="@drawable/derriere" />
+
+
+            <TextView
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="290dp"
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorBlackTrans"
+                android:text="FENETRE"
+                android:textStyle="normal"
+                android:textSize="25dp"
+                />
+
+            <ImageView
+                android:id="@+id/imageall1"
+                android:layout_width="50dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="130dp"
+                android:layout_marginTop="270dp"
+                />
+            <ImageView
+                android:id="@+id/imageett1"
+                android:layout_width="50dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="130dp"
+                android:layout_marginTop="270dp"
+                />
+            <Switch
+                android:id="@+id/switch1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleX="2"
+                android:scaleY="2"
+                android:theme="@style/SwitchTheme"
+
+                android:layout_marginLeft="280dp"
+                android:layout_marginTop="300dp">
+
+            </Switch>
+        </RelativeLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/half_circle"
+            android:orientation="horizontal"
+            android:weightSum="5">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:id="@+id/home_ll"
+                android:gravity="center">
+
+                <RelativeLayout
+                    android:id="@+id/home_rl"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp">
+
+                    <ImageButton
+                        android:id="@+id/home_rl2"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_centerInParent="true"
+                        android:background="@drawable/home" />
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:id="@+id/time_ll"
+                android:gravity="center">
+
+                <RelativeLayout
+                    android:id="@+id/time_rl"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp">
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_centerInParent="true"
+                        android:background="@drawable/time" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/ic_plus" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:id="@+id/scene_ll"
+                android:gravity="center">
+
+                <RelativeLayout
+                    android:id="@+id/scene_rl"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp">
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_centerInParent="true"
+                        android:background="@drawable/graph" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:id="@+id/setting_ll"
+                android:gravity="center">
+
+                <RelativeLayout
+                    android:id="@+id/setting_rl"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp">
+
+                    <ImageButton
+                        android:id="@+id/btn1"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_centerInParent="true"
+                        android:background="@drawable/settings" />
+
+                </RelativeLayout>
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

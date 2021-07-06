@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "367011859988",
+    "firebase_url": "https://smarthouse-f876a-default-rtdb.firebaseio.com",
+    "project_id": "smarthouse-f876a",
+    "storage_bucket": "smarthouse-f876a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:367011859988:android:ae9fcf40c1a622ed856101",
+        "android_client_info": {
+          "package_name": "com.application.isradeleon.notifyexample"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "367011859988-rvo6bofnbpe6hkffouj24f1akea9tm9l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPwuOFOA7jvTNEv3RUFUlF-Y80QGbKtL4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "367011859988-rvo6bofnbpe6hkffouj24f1akea9tm9l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:367011859988:android:a6f886814983b6c3856101",
+        "android_client_info": {
+          "package_name": "com.example.auth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "367011859988-rvo6bofnbpe6hkffouj24f1akea9tm9l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPwuOFOA7jvTNEv3RUFUlF-Y80QGbKtL4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "367011859988-rvo6bofnbpe6hkffouj24f1akea9tm9l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:367011859988:android:e5b7d9bb98d26b28856101",
+        "android_client_info": {
+          "package_name": "com.quintus.labs.smarthome"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "367011859988-rvo6bofnbpe6hkffouj24f1akea9tm9l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPwuOFOA7jvTNEv3RUFUlF-Y80QGbKtL4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "367011859988-rvo6bofnbpe6hkffouj24f1akea9tm9l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
